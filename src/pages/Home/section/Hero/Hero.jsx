@@ -1,23 +1,30 @@
-import heroImage from "../../../../assets/hero-image/hero.jpg";
+import heroImg from "../../../../assets/hero-image/hero.jpg";
+import "./Hero.css";
+// import { HiArrowSmRight } from "react-icons/hi";
+
 const Hero = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 lg:py-44 md:py-32">
-      <div>
-        <h1 className="text-5xl font-bold">Web Design &</h1>
-        <h1 className="text-5xl font-bold mt-4">Web Development</h1>
-        <p className="mt-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla
-          et aperiam ab qui, aliquam sunt est ipsa alias temporibus obcaecati
-          fuga officia deserunt laboriosam mollitia quibusdam aspernatur. Dicta,
-          numquam.
-        </p>
-        <div className="mt-12">
-          <button className="btn btn-outline btn-primary mr-4">About Us</button>
-          <button className="btn btn-outline btn-secondary">Service</button>
+    <div id="hero" className="grid grid-cols-2 items-center gap-4 rounded px-10 py-24">
+      <div className="text-white">
+        <button className="bg-[#8B3DFF] text-[#13072E] font-bold text-lg py-2 px-6 rounded-full">
+          #flexiblesolutions
+        </button>
+        <div className="text-5xl space-y-3 font-semibold mt-12 mb-6">
+          <h1>Flexible Solutions for</h1>
+          <h2>Your Business</h2>
         </div>
+        <p className="text-lg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A assumenda
+          modi voluptatibus voluptatum debitis possimus vitae veritatis quas
+          repellendus sapiente!
+        </p>
+        <button className="mt-10 text-[#13072E] bg-white py-3 px-6 rounded-full">
+          Start free today 
+          {/* <HiArrowSmRight /> */}
+        </button>
       </div>
       <div>
-        <img src={heroImage} alt="" />
+        <img className="rounded-full" src={heroImg} alt="" />
       </div>
     </div>
   );
