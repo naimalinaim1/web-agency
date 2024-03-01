@@ -3,12 +3,14 @@ import project2 from "../../../../assets/project/2.jpg";
 
 const OurProject = () => {
   return (
-    <div className="text-gray-300">
+    // todo
+    // <div className="text-gray-300">
+    <div className="text-[#271356]">
       {/* project1 */}
       <div className="grid grid-cols-2 items-center">
         <img className="h-[650px]" src={project1} alt="" />
         <div className="pl-12">
-          <h2 className="text-2xl text-gray-200 font-semibold w-[85%] mb-12">
+          <h2 className="text-2xl text-[#271356]font-semibold w-[85%] mb-12">
             Working with ADN in rebuilding the largest French-language animation
             streaming platform
           </h2>
@@ -40,7 +42,7 @@ const OurProject = () => {
       {/* project2 */}
       <div className="grid grid-cols-2 items-center">
         <div className="pr-12">
-          <h2 className="text-2xl text-gray-200 font-semibold w-[85%] mb-12">
+          <h2 className="text-2xl text-[#271356]font-semibold w-[85%] mb-12">
             Working with ADN in rebuilding the largest French-language animation
             streaming platform
           </h2>
@@ -74,7 +76,7 @@ const OurProject = () => {
       <div className="grid grid-cols-2 items-center">
         <img className="h-[650px]" src={project1} alt="" />
         <div className="pl-12">
-          <h2 className="text-2xl text-gray-200 font-semibold w-[85%] mb-12">
+          <h2 className="text-2xl text-[#271356]font-semibold w-[85%] mb-12">
             Working with ADN in rebuilding the largest French-language animation
             streaming platform
           </h2>

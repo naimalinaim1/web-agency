@@ -26,7 +26,9 @@ const data = [
 const WhyChooseUs = () => {
   return (
     <div className="mt-20">
-      <article className="text-white">
+      {/* todo */}
+      {/* <article className="text-white"> */}
+      <article className="text-[#271356]">
         <h2 className="text-4xl font-bold">
           Reasons to choose Web Agency Inc.
         </h2>

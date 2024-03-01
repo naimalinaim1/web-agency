@@ -17,7 +17,9 @@ const Header = () => {
   );
 
   return (
-    <header className="max-w-7xl mx-auto navbar py-8 px-0 text-white">
+    // todo
+    // <header className="max-w-7xl mx-auto navbar py-8 px-0 text-white">
+    <header className="max-w-7xl mx-auto navbar py-8 px-0">
       <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
@@ -50,7 +52,9 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1 text-xl">{headerLink}</ul>
         </div>
         <div className="navbar-end">
-          <button className="text-black bg-white py-3 px-6 rounded-full">Contact Us</button>
+          {/* todo */}
+          {/* <button className="text-black bg-white py-3 px-6 rounded-full">Contact Us</button> */}
+          <button className="bg-[#2b165c] text-white py-3 px-6 rounded-full">Contact Us</button>
         </div>
       </div>
     </header>

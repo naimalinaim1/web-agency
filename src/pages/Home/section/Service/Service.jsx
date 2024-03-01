@@ -3,10 +3,12 @@ import Technology from "./Technology";
 
 const Service = () => {
   return (
-    <div className="mt-40 text-white">
+    // todo:
+    // <div className="mt-40 text-white">
+    <div className="mt-40 text-[#271356]">
       {/* service description */}
       <article>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-4xl font-bold">
           What are web development services?
         </h2>
         <p className="w-[70%] text-lg  mt-6">
@@ -17,7 +19,9 @@ const Service = () => {
         </p>
       </article>
       {/* service item and technology */}
-      <article>
+      {/* todo */}
+      {/* <article className="text-white"> */}
+      <article className="text-white">
         <ServiceItems />
         <Technology />
       </article>

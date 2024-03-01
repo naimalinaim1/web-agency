@@ -5,10 +5,14 @@ const Technology = () => {
     <div>
       {/* title */}
       <div className="text-center mt-20">
-        <h2 className="text-3xl font-bold text-white">
+        {/* todo */}
+        {/* <h2 className="text-3xl font-bold text-white"> */}
+        <h2 className="text-3xl font-bold text-[#271356]">
           Which technologies will bring maximum value to your business?
         </h2>
-        <p className="mt-3 text-lg w-[70%] mx-auto">
+        {/* todo: */}
+        {/* <p className="mt-3 text-lg w-[70%] mx-auto"> */}
+        <p className="mt-3 text-lg w-[70%] mx-auto text-[#271356]">
           Solve customer problems by choosing cutting-edge technologies for your
           tech stack. Take your business to the next level with the right
           solutions tailored to your own requirements.

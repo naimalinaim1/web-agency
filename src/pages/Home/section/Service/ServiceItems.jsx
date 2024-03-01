@@ -7,10 +7,14 @@ const ServiceItems = () => {
     <div>
       {/* title */}
       <div className="text-center mt-16">
-        <h2 className="text-3xl font-bold text-white">
+        {/* todo */}
+        {/* <h2 className="text-3xl font-bold text-white"> */}
+        <h2 className="text-3xl font-bold text-[#271356]">
           What Web Solution Do You Need?
         </h2>
-        <p className="mt-3 text-lg w-[70%] mx-auto">
+        {/* todo */}
+        {/* <p className="mt-3 text-lg w-[70%] mx-auto"> */}
+        <p className="mt-3 text-lg w-[70%] mx-auto text-[#271356]">
           Our battle-tested developers specialize in a wide range of web
           development services. Here are some of the solutions that we can
           deliver for you.

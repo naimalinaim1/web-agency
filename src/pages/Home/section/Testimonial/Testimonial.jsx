@@ -4,7 +4,8 @@ import { HiStar } from "react-icons/hi";
 const Testimonial = () => {
   return (
     <div className="mt-20">
-      <p className="text-5xl text-white font-semibold mb-12">
+      {/* <p className="text-5xl text-white font-semibold mb-12"> */}
+      <p className="text-5xl text-[#271356] font-semibold mb-12">
         Why others choose us?
       </p>
       {/* items */}

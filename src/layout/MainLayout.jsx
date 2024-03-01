@@ -5,7 +5,11 @@ import Footer from "../pages/Shared/Footer/Footer";
 const MainLayout = () => {
   return (
     <>
-      <div className="bg-[#13072E] min-h-screen">
+      {/* 
+    todo: 
+    <div className="bg-[#13072E] min-h-screen">
+    */}
+      <div className="min-h-screen">
         <Header />
         <main>
           <Outlet />
