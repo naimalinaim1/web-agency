@@ -5,7 +5,7 @@ import HashButton from "../../../../components/HashButton";
 const Hero = () => {
   return (
     <div id="gradient-color">
-      <div className="grid md:grid-cols-12 items-center gap-y-10 md:gap-4 rounded px-8 py-24">
+      <div className="w-[94%] max-w-7xl mx-auto grid md:grid-cols-12 items-center gap-y-10 md:gap-4 rounded py-24">
         <div className="text-white col-span-7">
           <HashButton>#flexiblesolutions</HashButton>
           <div className="text-5xl space-y-3 font-semibold mt-12 mb-6">

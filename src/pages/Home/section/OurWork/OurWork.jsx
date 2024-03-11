@@ -1,27 +1,20 @@
+import SectionTitle from "../../../../components/SectionTitle";
 import ClientWorkList from "./ClientWorkList";
 import OurProject from "./OurProject";
 
 const OurWork = () => {
   return (
     <section>
-      {/* todo: */}
-      {/* <div className="mt-40 text-white"> */}
-      <div className="mt-40 text-[#271356]">
-        {/* service description */}
-        <article>
-          {/* <h2 className="text-4xl font-bold text-white"> */}
-          <h2 className="text-4xl font-bold text-[#271356]">
-            Our Web-Related Projects
-          </h2>
-          <p className="w-[70%] text-lg  mt-6">
-            We recognize that the most complex projects demand that our web
+      {/* service description */}
+      <SectionTitle
+        title="Our Web-Related Projects"
+        description="We recognize that the most complex projects demand that our web
             development team pay attention to every detail in the process of
-            creating web-based solutions. we{"'"}ve delivered over 100 projects,
+            creating web-based solutions. we've delivered over 100 projects,
             so we know what it takes to execute a seamless and optimized
-            web-based software development process.
-          </p>
-        </article>
-      </div>
+            web-based software development process."
+      />
+
       <ClientWorkList />
       <OurProject />
     </section>

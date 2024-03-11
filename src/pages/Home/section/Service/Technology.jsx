@@ -1,26 +1,19 @@
 import img from "../../../../assets/service/ecommerce.jpg";
+import SectionSubTitle from "../../../../components/SectionSubTitle";
 
 const Technology = () => {
   return (
     <div>
       {/* title */}
-      <div className="text-center mt-20">
-        {/* todo */}
-        {/* <h2 className="text-3xl font-bold text-white"> */}
-        <h2 className="text-3xl font-bold text-[#271356]">
-          Which technologies will bring maximum value to your business?
-        </h2>
-        {/* todo: */}
-        {/* <p className="mt-3 text-lg w-[70%] mx-auto"> */}
-        <p className="mt-3 text-lg w-[70%] mx-auto text-[#271356]">
-          Solve customer problems by choosing cutting-edge technologies for your
+      <SectionSubTitle
+        title="Which technologies will bring maximum value to your business?"
+        description="Solve customer problems by choosing cutting-edge technologies for your
           tech stack. Take your business to the next level with the right
-          solutions tailored to your own requirements.
-        </p>
-      </div>
+          solutions tailored to your own requirements."
+      />
       {/* technology */}
-      <div className="grid grid-cols-4 gap-6 mt-12">
-        <div className="bg-[#271352] text-center px-4 py-12 pb-20 w-4/5 sm:w-2/3 md:w-full mx-auto rounded-md">
+      <div className="grid grid-cols-4 gap-6 mt-20">
+        <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
           <img className="rounded-full w-20 mx-auto" src={img} alt="" />
           <p className="text-xl font-bold mt-4 mb-6">Frontend Development</p>
           <p className="leading-relaxed">
@@ -28,7 +21,7 @@ const Technology = () => {
             enable us to create the surface layer of your product.
           </p>
         </div>
-        <div className="bg-[#271352] text-center px-4 py-12 pb-20 w-4/5 sm:w-2/3 md:w-full mx-auto rounded-md">
+        <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
           <img className="rounded-full w-20 mx-auto" src={img} alt="" />
           <p className="text-xl font-bold mt-4 mb-6">Backend Development</p>
           <p className="leading-relaxed">
@@ -36,7 +29,7 @@ const Technology = () => {
             and development, producing fast and scalable web apps.
           </p>
         </div>
-        <div className="bg-[#271352] text-center px-4 py-12 pb-20 w-4/5 sm:w-2/3 md:w-full mx-auto rounded-md">
+        <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
           <img className="rounded-full w-20 mx-auto" src={img} alt="" />
           <p className="text-xl font-bold mt-4 mb-6">Full Stack Development</p>
           <p className="leading-relaxed">
@@ -45,7 +38,7 @@ const Technology = () => {
             product a success.
           </p>
         </div>
-        <div className="bg-[#271352] text-center px-4 py-12 pb-20 w-4/5 sm:w-2/3 md:w-full mx-auto rounded-md">
+        <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
           <img className="rounded-full w-20 mx-auto" src={img} alt="" />
           <p className="text-xl font-bold mt-4">PSD To HTML</p>
           <p className="text-xl font-bold mt-2 mb-6">Figma To HTML</p>
@@ -55,7 +48,7 @@ const Technology = () => {
             product.
           </p>
         </div>
-        <div className="bg-[#271352] text-center px-4 py-12 pb-20 w-4/5 sm:w-2/3 md:w-full mx-auto rounded-md">
+        <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
           <img className="rounded-full w-20 mx-auto" src={img} alt="" />
           <p className="text-xl font-bold mt-4">PSD To React</p>
           <p className="text-xl font-bold mt-2 mb-6">Figma To React</p>
@@ -64,7 +57,7 @@ const Technology = () => {
             enable us to create the surface layer of your product.
           </p>
         </div>
-        <div className="bg-[#271352] text-center px-4 py-12 pb-20 w-4/5 sm:w-2/3 md:w-full mx-auto rounded-md">
+        <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
           <img className="rounded-full w-20 mx-auto" src={img} alt="" />
           <p className="text-xl font-bold mt-4 mb-6">UX and UI design</p>
           <p className="leading-relaxed">
@@ -72,7 +65,7 @@ const Technology = () => {
             and planning convenient, quick and frictionless user journeys.
           </p>
         </div>
-        <div className="bg-[#271352] text-center px-4 py-12 pb-20 w-4/5 sm:w-2/3 md:w-full mx-auto rounded-md">
+        <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
           <img className="rounded-full w-20 mx-auto" src={img} alt="" />
           <p className="text-xl font-bold mt-4 mb-6">
             Continuous support and evolution
@@ -82,7 +75,7 @@ const Technology = () => {
             on the market, and compliant with all your evolving business needs.
           </p>
         </div>
-        <div className="bg-[#271352] text-center px-4 py-12 pb-20 w-4/5 sm:w-2/3 md:w-full mx-auto rounded-md">
+        <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
           <img className="rounded-full w-20 mx-auto" src={img} alt="" />
           <p className="text-xl font-bold mt-4 mb-6">Help desk</p>
           <p className="leading-relaxed">

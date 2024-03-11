@@ -1,0 +1,19 @@
+import PropTypes from "prop-types";
+
+const SectionSubTitle = ({ title, description }) => {
+  return (
+    <div className="text-center text-[#271356] mt-52">
+      <h2 className="text-3xl font-bold">{title}</h2>
+      <p className="mt-3 text-lg w-[92%]  md:w-[85%] lg:w-[70%] mx-auto">
+        {description}
+      </p>
+    </div>
+  );
+};
+
+SectionSubTitle.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
+
+export default SectionSubTitle;

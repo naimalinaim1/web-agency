@@ -1,7 +1,7 @@
 const ClientWorkList = () => {
   return (
     <section>
-      <div className="text-lg text-center grid grid-cols-4 bg-[#F2F5F7] py-10 my-20 rounded-lg">
+      <div className="text-lg text-center grid grid-cols-4 bg-[#F2F5F7] py-10 my-24 rounded-lg">
         <div>
           <p className="text-4xl font-semibold text-[#13072E]">50+</p>
           <p>Frontend Development</p>

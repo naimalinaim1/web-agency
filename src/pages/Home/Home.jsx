@@ -6,13 +6,17 @@ import OurWork from "./section/OurWork/OurWork";
 
 const Home = () => {
   return (
-    <section className="max-w-7xl mx-auto">
-      <Hero />
-      <Service />
-      <OurWork />
-      <WhyChooseUs />
+    <>
+      <section>
+        <Hero />
+      </section>
+      <section className="w-[92%] max-w-7xl mx-auto">
+        <Service />
+        <OurWork />
+        <WhyChooseUs />
+      </section>
       <Testimonial />
-    </section>
+    </>
   );
 };
 

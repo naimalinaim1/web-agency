@@ -1,4 +1,5 @@
 import HashButton from "../../../../components/HashButton";
+import SectionTitle from "../../../../components/SectionTitle";
 const data = [
   {
     id: 1,
@@ -25,21 +26,16 @@ const data = [
 
 const WhyChooseUs = () => {
   return (
-    <div className="mt-20">
-      {/* todo */}
-      {/* <article className="text-white"> */}
-      <article className="text-[#271356]">
-        <h2 className="text-4xl font-bold">
-          Reasons to choose Web Agency Inc.
-        </h2>
-        <p className="w-[70%] text-lg  mt-6">
-          We recognize that the most complex projects demand that our web
+    <section>
+      <SectionTitle
+        title="Reasons to choose Web Agency Inc."
+        description="We recognize that the most complex projects demand that our web
           development team pay attention to every detail in the process of
-          creating web-based solutions. we{"'"}ve delivered over 100 projects,
+          creating web-based solutions. we've delivered over 100 projects,
           so we know what it takes to execute a seamless and optimized web-based
-          software development process.
-        </p>
-      </article>
+          software development process."
+      />
+
       {/* items */}
       <div className="grid md:grid-cols-3 gap-12 text-white mt-24">
         {data.map((item) => (
@@ -57,7 +53,7 @@ const WhyChooseUs = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
