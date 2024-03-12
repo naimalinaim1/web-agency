@@ -51,8 +51,14 @@ const Testimonial = () => {
 
   return (
     <>
-      <section className="bg-[#271352] mt-64">
-        <div className="max-w-7xl mx-auto">
+      <section className="bg-[#271352] mt-64 py-36">
+        <div className="text-white text-center">
+          <h2 className="text-4xl font-bold">What Our Client Say</h2>
+          <p className="mt-3 text-lg w-[92%]  md:w-[85%] lg:w-[70%] mx-auto">
+            We pride ourselves on providing exceptional service to our clients.
+          </p>
+        </div>
+        <div className="max-w-7xl mx-auto mt-32">
           <Swiper
             effect={"coverflow"}
             grabCursor={true}
@@ -68,7 +74,7 @@ const Testimonial = () => {
             autoplay={{ delay: 3000 }}
             pagination={true}
             modules={[EffectCoverflow, Pagination, Autoplay]}
-            initialSlide={0}
+            initialSlide={1}
             loop={true}
             onSwiper={setSwiper}
             className="mySwiper select-none"
