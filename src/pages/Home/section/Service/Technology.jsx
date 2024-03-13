@@ -12,7 +12,7 @@ const Technology = () => {
           solutions tailored to your own requirements."
       />
       {/* technology */}
-      <div className="grid grid-cols-4 gap-6 mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-20">
         <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
           <img className="rounded-full w-20 mx-auto" src={img} alt="" />
           <p className="text-xl font-bold mt-4 mb-6">Frontend Development</p>

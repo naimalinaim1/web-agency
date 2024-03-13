@@ -8,10 +8,10 @@ const Header = () => {
         <ActiveLink to="/">Home</ActiveLink>
       </li>
       <li>
-        <ActiveLink to="/service/">Service</ActiveLink>
+        <Link>Service</Link>
       </li>
       <li>
-        <ActiveLink to="/about/">About</ActiveLink>
+        <Link>About</Link>
       </li>
     </>
   );

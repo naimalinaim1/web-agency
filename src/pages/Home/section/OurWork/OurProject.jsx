@@ -3,14 +3,12 @@ import project2 from "../../../../assets/project/2.jpg";
 
 const OurProject = () => {
   return (
-    // todo
-    // <div className="text-gray-300">
-    <div className="text-[#271356]">
+    <div className="text-[#271356] space-y-40 lg:space-y-0">
       {/* project1 */}
-      <div className="grid grid-cols-2 items-center">
-        <img className="h-[650px]" src={project1} alt="" />
-        <div className="pl-12">
-          <h2 className="text-2xl text-[#271356]font-semibold w-[85%] mb-12">
+      <div className="grid lg:grid-cols-2 items-center">
+        <img className="md:h-[650px] w-full" src={project1} alt="" />
+        <div className="lg:pl-12 mt-10 lg:mt-0">
+          <h2 className="text-2xl text-[#271356] font-semibold lg:w-[85%] mb-12">
             Working with ADN in rebuilding the largest French-language animation
             streaming platform
           </h2>
@@ -40,9 +38,9 @@ const OurProject = () => {
         </div>
       </div>
       {/* project2 */}
-      <div className="grid grid-cols-2 items-center">
-        <div className="pr-12">
-          <h2 className="text-2xl text-[#271356]font-semibold w-[85%] mb-12">
+      <div className="grid lg:grid-cols-2 items-center">
+        <div className="order-2 lg:order-1 lg:pr-12 mt-10 lg:mt-0">
+          <h2 className="text-2xl text-[#271356] font-semibold lg:w-[85%] mb-12">
             Working with ADN in rebuilding the largest French-language animation
             streaming platform
           </h2>
@@ -70,13 +68,17 @@ const OurProject = () => {
             </p>
           </div>
         </div>
-        <img className="h-[650px]" src={project2} alt="" />
+        <img
+          className="order-1 lg:order-2 md:h-[650px]"
+          src={project2}
+          alt=""
+        />
       </div>
       {/* project3 */}
-      <div className="grid grid-cols-2 items-center">
-        <img className="h-[650px]" src={project1} alt="" />
-        <div className="pl-12">
-          <h2 className="text-2xl text-[#271356]font-semibold w-[85%] mb-12">
+      <div className="grid lg:grid-cols-2 items-center">
+        <img className="md:h-[650px]" src={project1} alt="" />
+        <div className="lg:pl-12 mt-10 lg:mt-0">
+          <h2 className="text-2xl text-[#271356] font-semibold lg:w-[85%] mb-12">
             Working with ADN in rebuilding the largest French-language animation
             streaming platform
           </h2>

@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="bg-white rounded-t-[65px]">
         {/* footer link */}
         <div className="pt-24 pb-52 text-[#13072E] rounded-t-[35px]">
-          <div className="footer max-w-7xl mx-auto">
+          <div className="footer w-[94%] max-w-7xl mx-auto">
             <div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-20 lg:gap-0 lg:grid-cols-4">
                 {/* logo and social link */}
@@ -90,7 +90,7 @@ const Footer = () => {
           </div>
         </div>
         {/* copyright */}
-        <div className="text-xl flex justify-between pt-6 pb-10 max-w-7xl mx-auto border-t-2 border-[#ADACB8]">
+        <div className="text-xl flex justify-between pt-6 pb-10 w-[94%] max-w-7xl mx-auto border-t-2 border-[#ADACB8]">
           <p>&copy; Wardiere Inc. All Rights Reserved 2023</p>
           <p>Terms & Conditions</p>
         </div>

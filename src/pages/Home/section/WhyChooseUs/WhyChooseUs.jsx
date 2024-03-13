@@ -37,12 +37,9 @@ const WhyChooseUs = () => {
       />
 
       {/* items */}
-      <div className="grid md:grid-cols-3 gap-12 text-white mt-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-white mt-24">
         {data.map((item) => (
-          <div
-            key={item.id}
-            className="bg-[#271352] p-2 w-4/5 sm:w-2/3 md:w-full mx-auto rounded-md"
-          >
+          <div key={item.id} className="bg-[#271352] p-2  rounded-md">
             <HashButton>{item.buttonName}</HashButton>
             <div className="px-14 py-20">
               <h3 className="text-2xl lg:text-3xl font-bold mb-4">
