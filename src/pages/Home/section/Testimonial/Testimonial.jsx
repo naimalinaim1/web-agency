@@ -51,10 +51,12 @@ const Testimonial = () => {
 
   return (
     <>
-      <section className="bg-[#271352] mt-64 py-36">
+      <section className="bg-[#271352] mt-44 md:mt-56 lg:mt-64 py-36">
         <div className="text-white text-center">
-          <h2 className="text-4xl font-bold">What Our Client Say</h2>
-          <p className="mt-3 text-lg w-[92%]  md:w-[85%] lg:w-[70%] mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold">
+            What Our Client Say
+          </h2>
+          <p className="mt-3 sm:text-lg w-[92%] md:w-[85%] lg:w-[70%] mx-auto">
             We pride ourselves on providing exceptional service to our clients.
           </p>
         </div>

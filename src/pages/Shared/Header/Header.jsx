@@ -39,13 +39,13 @@ const Header = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 space-y-2"
             >
               {headerLink}
             </ul>
           </div>
           <Link to="/">
-            <p className="text-3xl font-bold">Web Agency</p>
+            <p className="text-2xl md:text-3xl font-bold">Web Agency</p>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">

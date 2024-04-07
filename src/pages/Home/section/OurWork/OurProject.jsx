@@ -69,14 +69,14 @@ const OurProject = () => {
           </div>
         </div>
         <img
-          className="order-1 lg:order-2 md:h-[650px]"
+          className="order-1 lg:order-2 md:h-[650px] w-full"
           src={project2}
           alt=""
         />
       </div>
       {/* project3 */}
       <div className="grid lg:grid-cols-2 items-center">
-        <img className="md:h-[650px]" src={project1} alt="" />
+        <img className="md:h-[650px] w-full" src={project1} alt="" />
         <div className="lg:pl-12 mt-10 lg:mt-0">
           <h2 className="text-2xl text-[#271356] font-semibold lg:w-[85%] mb-12">
             Working with ADN in rebuilding the largest French-language animation

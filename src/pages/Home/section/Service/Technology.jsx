@@ -12,9 +12,13 @@ const Technology = () => {
           solutions tailored to your own requirements."
       />
       {/* technology */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
         <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
-          <img className="rounded-full w-20 mx-auto" src={img} alt="" />
+          <img
+            className="rounded-full w-20 mx-auto"
+            src={img}
+            alt="Frontend Development"
+          />
           <p className="text-xl font-bold mt-4 mb-6">Frontend Development</p>
           <p className="leading-relaxed">
             We use the most popular frontend frameworks like React.js that
@@ -22,7 +26,11 @@ const Technology = () => {
           </p>
         </div>
         <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
-          <img className="rounded-full w-20 mx-auto" src={img} alt="" />
+          <img
+            className="rounded-full w-20 mx-auto"
+            src={img}
+            alt="Backend Development"
+          />
           <p className="text-xl font-bold mt-4 mb-6">Backend Development</p>
           <p className="leading-relaxed">
             We use server-side technologies like Node.js and PHP for prototyping
@@ -30,7 +38,11 @@ const Technology = () => {
           </p>
         </div>
         <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
-          <img className="rounded-full w-20 mx-auto" src={img} alt="" />
+          <img
+            className="rounded-full w-20 mx-auto"
+            src={img}
+            alt="Full Stack Development"
+          />
           <p className="text-xl font-bold mt-4 mb-6">Full Stack Development</p>
           <p className="leading-relaxed">
             We deliver end-to-end web development, combining frontend and
@@ -39,7 +51,11 @@ const Technology = () => {
           </p>
         </div>
         <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
-          <img className="rounded-full w-20 mx-auto" src={img} alt="" />
+          <img
+            className="rounded-full w-20 mx-auto"
+            src={img}
+            alt="PSD, Figma To HTML"
+          />
           <p className="text-xl font-bold mt-4">PSD To HTML</p>
           <p className="text-xl font-bold mt-2 mb-6">Figma To HTML</p>
           <p className="leading-relaxed">
@@ -49,7 +65,11 @@ const Technology = () => {
           </p>
         </div>
         <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
-          <img className="rounded-full w-20 mx-auto" src={img} alt="" />
+          <img
+            className="rounded-full w-20 mx-auto"
+            src={img}
+            alt="PSD, Figma To React"
+          />
           <p className="text-xl font-bold mt-4">PSD To React</p>
           <p className="text-xl font-bold mt-2 mb-6">Figma To React</p>
           <p className="leading-relaxed">
@@ -58,30 +78,15 @@ const Technology = () => {
           </p>
         </div>
         <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
-          <img className="rounded-full w-20 mx-auto" src={img} alt="" />
-          <p className="text-xl font-bold mt-4 mb-6">UX and UI design</p>
+          <img
+            className="rounded-full w-20 mx-auto"
+            src={img}
+            alt="Landing page"
+          />
+          <p className="text-xl font-bold mt-4 mb-6">Landing page</p>
           <p className="leading-relaxed">
-            We start designing a web app with the analysis of target audience
-            and planning convenient, quick and frictionless user journeys.
-          </p>
-        </div>
-        <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
-          <img className="rounded-full w-20 mx-auto" src={img} alt="" />
-          <p className="text-xl font-bold mt-4 mb-6">
-            Continuous support and evolution
-          </p>
-          <p className="leading-relaxed">
-            We advance your web-based software to keep it efficient, competitive
-            on the market, and compliant with all your evolving business needs.
-          </p>
-        </div>
-        <div className="bg-[#271352] text-center px-4 py-12 rounded-md">
-          <img className="rounded-full w-20 mx-auto" src={img} alt="" />
-          <p className="text-xl font-bold mt-4 mb-6">Help desk</p>
-          <p className="leading-relaxed">
-            Providing L1, L2 and L3 support services, we deliver hot-fixes
-            within 24 hours to prevent or resolve any issues in usage,
-            technology and code that may arise.
+            We use the most popular frontend frameworks like React.js, that
+            enable us to create the surface layer of your product.
           </p>
         </div>
       </div>
